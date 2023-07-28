@@ -9,6 +9,4 @@ RUN apt update && apt install -y \
 # DOWNLOAD CERTS -------------------------
 RUN update-ca-certificates
 RUN ln -sf /usr/bin/msmtp /usr/sbin/sendmail
-COPY mail/msmtprc /etc
-COPY mail/template.txt /etc
 
