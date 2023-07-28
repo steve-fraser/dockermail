@@ -3,7 +3,8 @@ FROM ubuntu
 RUN apt update && apt install -y \
 	msmtp \
 	openssl \
-	ca-certificates
+	ca-certificates \
+	mutt
 
 
 # DOWNLOAD CERTS -------------------------
